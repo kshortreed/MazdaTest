@@ -1,0 +1,14 @@
+{
+  "name": "gcp-input-capture",
+  "version": "1.0.0",
+  "description": "Capture form data and export to Excel using Google Cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "^7.0.0",
+    "express": "^4.19.0",
+    "xlsx": "^0.18.5"
+  }
+}
