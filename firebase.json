@@ -1,12 +1,4 @@
 {
-  "emulators": {
-    "dataconnect": {
-      "dataDir": "dataconnect/.dataconnect/pgliteData"
-    }
-  },
-  "dataconnect": {
-    "source": "dataconnect"
-  },
   "firestore": {
     "database": "(default)",
     "location": "us-west1",
@@ -30,15 +22,13 @@
       ]
     }
   ],
-  "apphosting": {
-    "backendId": "mazdatest-web",
-    "rootDir": "/",
+  "hosting": {
+    "public": "public",
     "ignore": [
-      "node_modules",
-      ".git",
-      "firebase-debug.log",
-      "firebase-debug.*.log",
-      "functions"
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
     ]
   }
+
 }
